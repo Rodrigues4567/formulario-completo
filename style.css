@@ -33,6 +33,10 @@ header {
     background-color: white;
 }
 
+.section {
+    padding: 0px 20px;
+}
+
 .form-titulo {
     border-bottom: 1px solid #8f8f8f;
     margin-bottom: 30px;
@@ -95,4 +99,46 @@ label {
     padding: 5px;
     font-size: 0.9rem;
     font-family: var(--fonte-padrao);
+}
+
+.cambio-radio {
+    margin-bottom: 25px;
+}
+
+.cambio-radio p {
+    margin-bottom: 5px;
+}
+
+.opcionais-check p {
+    margin-bottom: 5px;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+ul {
+    columns: 2;
+    margin-bottom: 25px;
+}
+
+.fotos p {
+    margin-bottom: 5px;
+}
+
+.button {
+    margin: 10px 0px;
+    padding: 22px 45px;
+    border: none;
+    background-color: #693AB7;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #4c2983;
+    transition: 0.4s;
 }
