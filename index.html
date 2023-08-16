@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Venda seu carro</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-
+        <!-- Background roxo -->
     </header>
 
     <main>
@@ -16,7 +17,7 @@
             <form action="#">
 
                 <div class="form-titulo">
-                    <h2>FORMULÁRIO</h2>
+                    <p>FORMULÁRIO</p>
                 </div>
 
                 <div class="titulo-subtitulo">
@@ -25,26 +26,26 @@
                 </div>
 
                 <div class="inputs">
-                    <label for="titulo-anuncio">Titulo do anúncio:</label>
-                    <input type="text" name="" id="titulo-anuncio" required placeholder="Um titulo para anunciar seu carro" maxlength="30">
+                    <label class="input-nome" for="titulo-anuncio">Titulo do anúncio:</label>
+                    <input class="input-box" type="text" name="" id="titulo-anuncio" required placeholder="Um titulo para anunciar seu carro" maxlength="30">
 
-                    <label for="preco">Preço:</label>
-                    <input type="number" name="" id="preco" required placeholder="Defina o preço">
+                    <label class="input-nome" for="preco">Preço:</label>
+                    <input class="input-box" type="number" name="" id="preco" required placeholder="Defina o preço">
 
-                    <label for="descricao">Descrição:</label>
-                    <textarea name="" id="descricao" cols="30" rows="10" required placeholder="Aqui você coloca os detalhes do veículo, por exemplo se ele tem algum arranhão"></textarea>
+                    <label class="input-nome" for="descricao">Descrição:</label>
+                    <textarea class="input-desc" name="" id="descricao" cols="30" rows="10" style="resize: none;" required placeholder="Aqui você coloca os detalhes do veículo, por exemplo se ele tem algum arranhão"></textarea>
 
-                    <label for="marca">Marca:</label>
-                    <input type="text" name="" id="marca" required placeholder="Informe a marca do veículo" maxlength="25">
+                    <label class="input-nome" for="marca">Marca:</label>
+                    <input class="input-box" type="text" name="" id="marca" required placeholder="Informe a marca do veículo" maxlength="25">
 
-                    <label for="modelo">Modelo:</label>
-                    <input type="text" name="" id="modelo" required placeholder="Informe o modelo do veículo">
+                    <label class="input-nome" for="modelo">Modelo:</label>
+                    <input class="input-box" type="text" name="" id="modelo" required placeholder="Informe o modelo do veículo">
 
-                    <label for="kilometragem">Kilometragem:</label>
-                    <input type="text" name="" id="kilometragem" required placeholder="Informe a kilometragem do veículo">
+                    <label class="input-nome" for="kilometragem">Kilometragem:</label>
+                    <input class="input-box" type="text" name="" id="kilometragem" required placeholder="Informe a kilometragem do veículo">
 
-                    <label for="data">Data de compra:</label>
-                    <input type="date" name="" id="data">
+                    <label class="input-nome" for="data">Data de compra:</label>
+                    <input class="input-box" type="date" name="" id="data">
 
                     <label for="">Tipo de câmbio:</label>
                     <input type="radio" name="cambio" id="manual">
@@ -79,8 +80,11 @@
                         <label for="couro">Bancos de couro</label>
                     </div>
 
-                    <label for="">Fotos do carro:</label>
+                    <label for="fotoscarro">Fotos do carro:</label>
+                    <input class="input-box" type="file" name="" id="fotoscarro" required multiple accept="image/png, image/jpg">
                 </div>
+
+                <input class="button" type="button" value="CADASTRAR">
             </form>
         </div>
     </main>

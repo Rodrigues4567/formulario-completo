@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'padrao';
+    src: url('fonts/Poppins/Poppins-Medium.ttf');
+}
+
+:root {
+    --fonte-padrao: 'padrao', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: var(--fonte-padrao);
+    font-weight: normal;
+    background-color: #F2EBF9;
+}
+
+header {
+    height: 240px;
+    background-color: #693AB7;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    padding: 30px;
+    margin-top: -68px;
+    background-color: white;
+}
+
+.form-titulo {
+    border-bottom: 1px solid #8f8f8f;
+    margin-bottom: 30px;
+}
+
+.form-titulo p {
+    display: block;
+    margin: auto;
+    line-height: 10px;
+    height: 35px;
+    text-align: center;
+    width: 120px;
+    color: #693AB7;
+    font-size: 1.1rem;
+    border-bottom: 2px solid #693AB7;
+}
+
+.titulo-subtitulo {
+    margin-bottom: 25px;
+}
+
+.titulo-subtitulo h1 {
+    color: rgb(49, 49, 49);
+    margin-bottom: 10px;
+}
+
+.titulo-subtitulo p {
+    color: rgb(49, 49, 49);
+}
+
+label {
+    color: rgb(49, 49, 49);
+}
+
+.input-box {
+    display: block;
+    width: 370px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    border: none;
+    border-bottom: 1px solid rgb(61, 61, 61);
+    font-family: var(--fonte-padrao);
+}
+
+.inputs #preco::-webkit-inner-spin-button,
+.inputs #preco::-webkit-outer-spin-button {
+    appearance: none;
+}
+
+.input-box:focus {
+    outline: none;
+}
+
+.input-desc {
+    display: block;
+    width: 370px;
+    height: 130px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 0.9rem;
+    font-family: var(--fonte-padrao);
+}
