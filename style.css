@@ -142,3 +142,42 @@ ul {
     background-color: #4c2983;
     transition: 0.4s;
 }
+
+/******************** Media Queries *********************/
+
+@media screen and (max-width: 1040px) {
+
+    header {
+        height: 200px;
+    }
+
+    .container {
+        width: 95vw;
+    }
+
+}
+
+@media screen and (max-width: 485px) {
+
+    .container {
+        width: 100vw;
+    }
+
+    .section {
+        padding: 0px;
+    }
+
+    .input-box {
+        width: 80vw;
+    }
+
+    .input-desc {
+        width: 80vw;
+    }
+
+    ul {
+        columns: 1;
+        margin-bottom: 25px;
+    }
+
+}
